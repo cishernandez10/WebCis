@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hospital Form</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <!-- Material Design icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+  <div class="container mt-5">
+    <h1>Hospital Form</h1><br><br>
+    <form>
+      <div class="row mb-3">
+        <div class="col">
+          <label for="firstName" class="form-label"><i class="material-icons">person</i></label>
+          <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name"required>
+        </div>
+        <div class="col">
+          <label for="lastName" class="form-label"><i class="material-icons">person</i></label>
+          <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name"required>
+        </div>
+        <div class="col">
+          <label for="suffix" class="form-label"><i class="material-icons">person</i></label>
+          <input type="text" class="form-control" id="suffix" name="suffix"placeholder="Suffix (Jr., III, etc.)">
+        </div>
+      </div>
+      <div class="row mb-3">
+        <div class = "col">
+          <label for="Age" class="form-label"><i class="material-icons">person</i></label>
+          <input type="number" class="form-control" id="age" name="age"placeholder="Age">
+        </div>
+        <div class = "col">
+          <label for="Birthday" class="form-label"><i class="material-icons">date_range</i></label>
+          <input type="varchar" class="form-control" id="bday" name="bday"placeholder="Birthday (MM/DD/YYYY)">
+        </div>
+        <div class = "col">
+          <label for="Gender" class="form-label"><i class="material-icons">transgender</i></label>
+          <input type="varchar" class="form-control" id="gender" name="gender"placeholder="Gender">
+        </div>
+      </div>
+      <div class="row mb-3">
+        <div class="col">
+          <label for="address" class="form-label"><i class="material-icons">home</i></label>
+          <input type="text" class="form-control" id="address" name="address" placeholder="Address"required>
+        </div>
+      </div>
+      <div class="row mb-3">
+        <div class = "col">
+          <label for="emergencycontact" class="form-label"><i class="material-icons">person_add</i></label>
+          <input type="text" class="form-control" id="econ" name="emergency"placeholder="Emergency Contact">
+        </div>
+        <div class = "col">
+          <label for="contactnumber" class="form-label"><i class="material-icons">perm_contact_calendar</i></label>
+          <input type="number" class="form-control" id="econnum" name="bday"placeholder="Contact Number">
+        </div>
+        <div class = "col">
+          <label for="reason" class="form-label"><i class="material-icons"> personal_injury</i></label>
+          <input type="varchar" class="form-control" id="reason" name="suffix"placeholder="Reason for Visit">
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary mt-3">Submit</button>
+      
+    </form>
+  </div>
+  <!-- Bootstrap JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
